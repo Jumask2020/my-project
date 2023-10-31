@@ -1,0 +1,140 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* law
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 15.0-20220531\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-23 11:45+0000\n"
+"PO-Revision-Date: 2023-09-23 11:45+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers__age
+#: model:ir.model.fields,field_description:law.field_lawyers_order__age
+msgid "Age"
+msgstr "العمر"
+
+#. module: law
+#: model:ir.ui.menu,name:law.all_customers_menu
+msgid "All Customers"
+msgstr "كل العملاء"
+
+#. module: law
+#: model:ir.ui.menu,name:law.all_lawyers_menu
+msgid "All lawyers"
+msgstr "كل العملاء"
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers__create_uid
+#: model:ir.model.fields,field_description:law.field_lawyers_order__create_uid
+msgid "Created by"
+msgstr "انشاء"
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers__create_date
+#: model:ir.model.fields,field_description:law.field_lawyers_order__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: law
+#: model:ir.actions.act_window,name:law.actions_customers_views
+msgid "Customer Management"
+msgstr "ادارة العملاء"
+
+#. module: law
+#: model:ir.ui.menu,name:law.customer_root_menu
+msgid "Customers"
+msgstr "العملاء"
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_lawyers_order__date
+msgid "Date"
+msgstr "التاريخ"
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers__display_name
+#: model:ir.model.fields,field_description:law.field_lawyers_order__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers__id
+#: model:ir.model.fields,field_description:law.field_lawyers_order__id
+msgid "ID"
+msgstr ""
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers____last_update
+#: model:ir.model.fields,field_description:law.field_lawyers_order____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers__write_uid
+#: model:ir.model.fields,field_description:law.field_lawyers_order__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers__write_date
+#: model:ir.model.fields,field_description:law.field_lawyers_order__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: law
+#: model:ir.ui.menu,name:law.lawyers_root_menu
+msgid "Law and Order"
+msgstr "القانون و الطلب"
+
+#. module: law
+#: model:ir.ui.menu,name:law.Lawyers_main_menu
+msgid "Lawyers"
+msgstr ""
+
+#. module: law
+#: model:ir.actions.act_window,name:law.actions_lawyers_views
+msgid "Lawyers Management"
+msgstr "ادارة المحامين"
+
+#. module: law
+#: model:ir.model,name:law.model_lawyers_order
+msgid "Lawyers management"
+msgstr "ادارة المحامين"
+
+#. module: law
+#: model_terms:ir.ui.view,arch_db:law.view_customer_form
+msgid "My Create"
+msgstr ""
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_customers__name
+#: model:ir.model.fields,field_description:law.field_lawyers_order__name
+msgid "Name"
+msgstr "الاسم"
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_sale_order__new_field
+msgid "New Field"
+msgstr ""
+
+#. module: law
+#: model:ir.model,name:law.model_sale_order
+msgid "Sales Order"
+msgstr "أمر البيع"
+
+#. module: law
+#: model:ir.model.fields,field_description:law.field_lawyers_order__note
+msgid "Text"
+msgstr ""
+
+#. module: law
+#: model:ir.model,name:law.model_customers
+msgid "custom manager"
+msgstr "ادارة العملاء"

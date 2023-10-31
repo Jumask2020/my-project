@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<odoo>
+    <record id="view_customer_form" model="ir.ui.view">
+        <field name="name">customer.view.form</field>
+        <field name="model">customers</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <button name="my_create" type="object" string="My Create"/>
+                        <field name="name"/>
+                        <field name="age"/>  
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="views_customer_tree" model="ir.ui.view">
+        <field name="name">customer.view.tree</field>
+        <field name="model">customers</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="age"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="actions_customers_views" model="ir.actions.act_window">
+        <field name="name">Customer Management</field>
+        <field name="res_model">customers</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="customer_root_menu"
+              name="Customers"
+              sequence="2"
+              parent="lawyers_root_menu"/>
+   
+    <menuitem id="all_customers_menu"
+              name="All Customers"
+              sequence="2"
+              parent="customer_root_menu"
+              action="actions_customers_views"/>
+</odoo>
+                
+    

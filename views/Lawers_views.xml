@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='utf-8'?>
+
+<odoo>
+    <record id="views_lawyers_form" model="ir.ui.view">
+        <field name="name">lawyers.view.form</field>
+        <field name="model">lawyers.order</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <!-- <button name="check_point" type="object" string="print rec"/>    -->
+                        <field name="name"/>
+                        <field name="age"/>
+                        <field name="date"/>
+                        <!-- <field name="create_uid"/>  -->
+                        <!-- <field name="lawyer_id"/>
+                        <field name="price"/>
+                        <field name="currency_id" />
+                        <field name="company_id" />
+                        <field name="reference" />
+                        <field name="float1" /> -->
+                        <!-- <field name="customer_ids1"/> -->
+                        <!-- <field name="age"/> -->
+                        <!-- <field name="new_field"/>
+                        <field name="field1"/>
+                        <field name="field2"/>
+                        <field name="field3"/>
+                        <field name="field4"/> -->
+                        <!-- <field name="date"/> -->
+                        <!-- <field name="datetime"/> -->
+                        
+                    </group>
+                </sheet>
+            </form>
+        </field>
+    </record>
+
+    <record id="views_lawyers_tree" model="ir.ui.view">
+        <field name="name">Lawyers.view.tree</field>
+        <field name="model">lawyers.order</field>
+        <field name="arch" type="xml">
+            <tree>
+                <field name="name"/>
+                <field name="age"/>
+                <!-- <field name="customer_id"/> -->
+                <!-- <field name="age"/> -->
+                <!-- <field name="new_field"/>
+                <field name="field1"/>
+                <field name="field2"/>
+                <field name="field3"/>
+                <field name="field4"/> -->
+                <!-- <field name="date"/> -->
+                <!-- <field name="datetime"/> -->
+
+                    
+            </tree>
+        </field>
+    </record>
+
+    <record id="actions_lawyers_views" model="ir.actions.act_window">
+        <field name="name">Lawyers Management</field>
+        <field name="res_model">lawyers.order</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <menuitem id="lawyers_root_menu"
+              name="Law and Order"
+              sequence="1"/>
+    <menuitem id="Lawyers_main_menu"
+              name="Lawyers"
+              sequence="1"
+              parent="lawyers_root_menu"/>
+    <menuitem id="all_lawyers_menu"
+              name="All lawyers"
+              sequence="1"
+              parent="Lawyers_main_menu"
+              action="actions_lawyers_views"/>
+
+</odoo>
