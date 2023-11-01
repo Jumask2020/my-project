@@ -1,11 +1,11 @@
 {
-    'name': 'open academy',
+    'name': 'jumaan askool',
     'version': '1.0.0',
     'sequence': -100,
     'author': 'Jumaan askool',
     'website': ['www.askool','.com'],
     'category': 'Lawyers',
-    'summary': 'Lawyers managment system',
+    'summary': 'Lawyers managment jumaan askool',
     'description': 'Lawyers management system',
     'depends': ['base','sale'],
     'data': [
